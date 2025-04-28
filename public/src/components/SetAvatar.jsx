@@ -115,7 +115,7 @@ const Container = styled.div`
   align-items: center;
   flex-direction: column;
   gap: 3rem;
-  background-color: #131324;
+  background-color: rgb(148, 124, 214);
   height: 100vh;
   width: 100vw;
 
@@ -125,10 +125,9 @@ const Container = styled.div`
 
   .title-container {
     h1 {
-      color: white;
+      color: rgb(77, 56, 136);
     }
   }
-
   .avatars {
     display: flex;
     gap: 2rem;
@@ -141,25 +140,17 @@ const Container = styled.div`
       justify-content: center;
       align-items: center;
       transition: 0.5s ease-in-out;
-
       img {
         height: 6rem;
         transition: 0.5s ease-in-out;
       }
-
-      &:hover {
-        cursor: pointer;
-        transform: scale(1.1);
-      }
     }
-
     .selected {
-      border: 0.4rem solid #4e0eff;
+      border: 0.4rem solid rgb(77, 56, 136);
     }
   }
-
   .submit-btn {
-    background-color: #4e0eff;
+    background-color: rgb(112, 72, 220);
     color: white;
     padding: 1rem 2rem;
     border: none;
@@ -168,9 +159,8 @@ const Container = styled.div`
     border-radius: 0.4rem;
     font-size: 1rem;
     text-transform: uppercase;
-
     &:hover {
-      background-color: #3c0edc;
+      background-color: rgb(77, 56, 136);
     }
   }
 `;

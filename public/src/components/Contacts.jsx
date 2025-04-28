@@ -23,7 +23,7 @@ export default function Contacts({ contacts, changeChat }) {
         <Container>
           <div className="brand">
             <img src={Logo} alt="logo" />
-            <h3>snappy</h3>
+            <h3>UTOPIA CLUB</h3>
           </div>
           <div className="contacts">
             {contacts.map((contact, index) => {
@@ -68,11 +68,11 @@ const Container = styled.div`
   display: grid;
   grid-template-rows: 10% 75% 15%;
   overflow: hidden;
-  background-color: #080420;
+  background-color:rgb(77, 56, 136);
   .brand {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
     justify-content: center;
     img {
       height: 2rem;
@@ -124,11 +124,11 @@ const Container = styled.div`
   }
 
   .current-user {
-    background-color: #0d0d30;
+    background-color:rgb(20, 8, 37);
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     .avatar {
       img {
         height: 4rem;
@@ -144,7 +144,7 @@ const Container = styled.div`
       gap: 0.5rem;
       .username {
         h2 {
-          font-size: 1rem;
+          font-size: 0.5rem;
         }
       }
     }

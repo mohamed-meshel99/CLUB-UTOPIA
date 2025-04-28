@@ -28,9 +28,9 @@ const Container = styled.div`
   color: white;
   flex-direction: column;
   img {
-    height: 20rem;
+    height: 6rem;
   }
   span {
-    color: #4e0eff;
+    color: rgb(61, 33, 138);
   }
 `;

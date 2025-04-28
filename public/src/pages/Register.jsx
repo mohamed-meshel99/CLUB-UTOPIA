@@ -90,7 +90,7 @@ export default function Register() {
         <form action="" onSubmit={(event) => handleSubmit(event)}>
           <div className="brand">
             <img src={Logo} alt="logo" />
-            <h1>snappy</h1>
+            <h1>UTOPIA CLUB</h1>
           </div>
           <input
             type="text"
@@ -135,7 +135,7 @@ const FormContainer = styled.div`
   justify-content: center;
   gap: 1rem;
   align-items: center;
-  background-color: #131324;
+  background-color:rgb(147, 122, 209);
   .brand {
     display: flex;
     align-items: center;
@@ -145,7 +145,7 @@ const FormContainer = styled.div`
       height: 5rem;
     }
     h1 {
-      color: white;
+      color: rgb(112, 72, 220);
       text-transform: uppercase;
     }
   }
@@ -154,16 +154,16 @@ const FormContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    background-color: #00000076;
+    background-color:rgb(218, 205, 255);
     border-radius: 2rem;
     padding: 3rem 5rem;
   }
   input {
     background-color: transparent;
     padding: 1rem;
-    border: 0.1rem solid #4e0eff;
+    border: 0.1rem solid rgb(112, 72, 220);
     border-radius: 0.4rem;
-    color: white;
+    color: black;
     width: 100%;
     font-size: 1rem;
     &:focus {
@@ -172,7 +172,7 @@ const FormContainer = styled.div`
     }
   }
   button {
-    background-color: #4e0eff;
+    background-color:rgb(112, 72, 220);
     color: white;
     padding: 1rem 2rem;
     border: none;
@@ -182,14 +182,14 @@ const FormContainer = styled.div`
     font-size: 1rem;
     text-transform: uppercase;
     &:hover {
-      background-color: #4e0eff;
+      background-color: rgb(77, 56, 136);
     }
   }
   span {
-    color: white;
+    color: black;
     text-transform: uppercase;
     a {
-      color: #4e0eff;
+      color: rgb(77, 56, 136);
       text-decoration: none;
       font-weight: bold;
     }
